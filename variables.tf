@@ -8,7 +8,7 @@ variable "vm_size" {
     default = "Standard_DS1_v2"
 }
 
-variable "default_pass" {
+variable "default_password" {
     description = "inital password for VM"
     type = string
     default = "Password1234!"
