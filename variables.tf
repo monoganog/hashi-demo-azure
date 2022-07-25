@@ -30,12 +30,12 @@ variable "SP_ApppID" {
     type = string
 }
 
-variable "SubscriptionID" {
+variable "subscription_ID" {
     description = "SP AppID"
     type = string
 }
 
-variable "tenantID" {
+variable "tenant_ID" {
     description = "SP AppID"
     type = string
 }
