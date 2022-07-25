@@ -15,7 +15,7 @@ resource "azurerm_resource_group" "example" {
 }
 
 #Create the virtual network
-resource "azurerm_virtual_network" "main" {
+resource "azurerm_virtual_network" "example" {
   name                = "${var.prefix}-network"
   address_space       = ["10.0.0.0/16"]
   location            = azurerm_resource_group.example.location
