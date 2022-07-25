@@ -19,3 +19,23 @@ variable "tags" {
   description = "Additional resource tags"
   type        = string
 }
+
+variable "SP_Password" {
+    description = "SP Password"
+    type = string
+}
+
+variable "SP_ApppID" {
+    description = "SP AppID"
+    type = string
+}
+
+variable "SubscriptionID" {
+    description = "SP AppID"
+    type = string
+}
+
+variable "tenantID" {
+    description = "SP AppID"
+    type = string
+}
