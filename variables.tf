@@ -25,7 +25,7 @@ variable "SP_Password" {
     type = string
 }
 
-variable "SP_ApppID" {
+variable "SP_AppID" {
     description = "SP AppID"
     type = string
 }
