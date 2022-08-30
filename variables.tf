@@ -15,7 +15,6 @@ variable "default_password" {
 }
 
 variable "tags" {
-  default     = ""
   description = "Additional resource tags"
   type        = string
 }
